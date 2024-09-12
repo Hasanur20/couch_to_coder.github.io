@@ -22,9 +22,9 @@
         <!-- Navigation section starts -->
         <nav id="nav_content">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="/My_Website/index.html" target="_self">Home</a></li>
+                <li><a href="/My_Website/About.html" target="_self">About</a></li>
+                <li><a href="#contact_form">Contact Us</a></li>
                 <div id="search_container">
                     <input type="text" placeholder="Search.." class="search_input">
                 </div>
@@ -42,7 +42,11 @@
             <article>
                 <h3>Food recipe 1</h3>
                 <img id="food-1" src="images/food-2.webp" alt="HTML5 Icon" style="width:128px;height:128px;">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident? Odit, nostrum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus
+                    tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam
+                    fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure
+                    necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident?
+                    Odit, nostrum.</p>
                 <blockquote>
                     <cite>By hasanur Uddin</cite>
                 </blockquote>
@@ -50,15 +54,23 @@
             <article>
                 <h3>Food recipe 1</h3>
                 <img id="food-2" src="images/chicken-rice.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident? Odit, nostrum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus
+                    tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam
+                    fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure
+                    necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident?
+                    Odit, nostrum.</p>
                 <blockquote>
                     <cite>By hasanur Uddin</cite>
                 </blockquote>
             </article>
             <article>
                 <h3>Food recipe 1</h3>
-                <img id= "food-3" src="images/beef-wellington.webp" alt="HTML5 Icon" style="width:128px;height:128px;">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident? Odit, nostrum.</p>
+                <img id="food-3" src="images/beef-wellington.webp" alt="HTML5 Icon" style="width:128px;height:128px;">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus
+                    tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam
+                    fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure
+                    necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident?
+                    Odit, nostrum.</p>
                 <blockquote>
                     <cite>By hasanur Uddin</cite>
                 </blockquote>
@@ -66,7 +78,11 @@
             <article>
                 <h3>Food recipe 1</h3>
                 <img id="food-4" src="images/chick_peas_dish.webp" alt="HTML5 Icon" style="width:128px;height:128px;">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident? Odit, nostrum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ad necessitatibus possimus
+                    tenetur! Iste tempora minima earum soluta consequuntur, quod provident quisquam voluptatum aperiam
+                    fuga perferendis cum illum aliquam! Eveniet atque quidem incidunt ad quos eos exercitationem, iure
+                    necessitatibus asperiores mollitia, corrupti voluptate esse cupiditate debitis dolorem provident?
+                    Odit, nostrum.</p>
                 <blockquote>
                     <cite>By hasanur Uddin</cite>
                 </blockquote>
@@ -74,57 +90,58 @@
         </section>
         <hr>
         <!-- Subscribe to our newsletter section  -->
-         <section>
+        <section id="contact_form">
             <h2>Need some more help... Leave us a message</h2>
             <form id="simple-form" action="POST">
-            <div>
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" name="first_name"  required>
-            </div>
-        
-            <div>
-                <label for="last_name">Last Name:</label>
-                <input type="text"  id="last_name" name="last_name" required>
-            </div>
-            
-            <div>
-                <label for="email_address">Email:</label>
-                <input type="email"  id="email_address" name="email_address" required>
-            </div>
-            
-            <div>
-                <label for="message">Your Message</label>
-                <textarea name="message" id="message" rows="4" cols="40"></textarea>
-            </div>
-            
-            <div>
-                <input type="checkbox"  id="subscribe" name="subscribe">
-                <label for="subscribe">Subscribe to Newsletter</label>
-            </div>
+                <div>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
 
-            <button type="submit" > Submit </button>
+                <div>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
+
+                <div>
+                    <label for="email_address">Email:</label>
+                    <input type="email" id="email_address" name="email_address" required>
+                </div>
+
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" rows="4" cols="40"></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to Newsletter</label>
+                </div>
+
+                <button type="submit"> Submit </button>
 
             </form>
-         </section>
-         
-         <br>
-         <section id="list_cards">
+        </section>
+
+        <br>
+        <section id="list_cards">
             <div class="card">
                 <img src="" alt="" style="width: 100%;">
                 <div class="container_protein">
                     <h4><b>Top 10 high protein meals</b></h4>
                     <p>
-                        <ol><li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                        </ol>
+                    <ol>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                    </ol>
                     </p>
                 </div>
             </div>
@@ -133,17 +150,18 @@
                 <div class="container_protein">
                     <h4><b>Top 10 high protein meals</b></h4>
                     <p>
-                        <ol><li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                        </ol>
+                    <ol>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                    </ol>
                     </p>
                 </div>
             </div>
@@ -152,45 +170,41 @@
                 <div class="container_protein">
                     <h4><b>Top 10 high protein meals</b></h4>
                     <p>
-                        <ol><li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                            <li>Chicken and rice</li>
-                        </ol>
+                    <ol>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                        <li>Chicken and rice</li>
+                    </ol>
                     </p>
                 </div>
             </div>
 
-         </section>
-          <!-- footer content -->
-         <footer id="footer_container_nav">
-         <h2>Hasanur's Foodblog</h2>
-         <section>
-             <nav id="footer_nav">
-                 <ul>
-                     <div>
-                         <li><a href=""></a>Home</li>
-                         <li><a href=""></a>About us</li>
-                         <li><a href=""></a>Contact</li>
-                         <li><a href=""></a>Careers</li>
-                     </div>
-                     <div>
-                         <li><a href=""></a>Privacy Policy</li>
-                         <li><a href=""></a>Terms & Conditions</li>
-                         <li><a href=""></a>Cookie Policy</li>
-                     </div>
-                     
-                 </ul>
-             </nav>
-         </section>
+        </section>
+        <!-- footer content -->
+        <footer id="footer_container_nav">
+            <h2>Hasanur's Foodblog</h2>
+            <section>
+                <nav id="footer_nav">
+                    <ul>
+                        <div id="footer_links">
+                            <li><a href=""></a>Careers</li>
+                            <li><a href=""></a>Privacy Policy</li>
+                            <li><a href=""></a>Terms & Conditions</li>
+                            <li><a href=""></a>Cookie Policy</li>
+                        </div>
 
-         </footer>
+                    </ul>
+                </nav>
+            </section>
+
+        </footer>
 
 
     </main>

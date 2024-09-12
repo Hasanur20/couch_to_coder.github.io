@@ -203,6 +203,7 @@ input , textarea{
     margin:10px;
     padding: 10px;
     border-radius: 10px;
+    
 }
 
 #footer_nav_head{
@@ -210,3 +211,34 @@ input , textarea{
     justify-content: left;
 }
 
+#footer_links{
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+#footer_links > li {
+
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    color: olive;
+    background-color:cornsilk;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease;
+}
+
+#footer_links > li:hover{
+
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.3); 
+}
+
+#main-footer{
+    margin:5px;
+    width: 100%;
+    text-align: center;
+}

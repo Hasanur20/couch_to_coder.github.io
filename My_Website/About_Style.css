@@ -1,0 +1,117 @@
+body> header> .logo{
+    background-color: olive;
+    margin: 5px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Sevillana", Helvetica, sans-serif;
+    color: cornsilk;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    
+}
+
+body > main > h2{
+    margin: 10px;
+}
+
+.logo:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.847);
+}
+
+
+.banner_img{
+
+    width: 128px;
+    transform: rotate(45deg);
+    transition: 0.3s;
+    
+}
+
+.banner_img:hover{
+
+    transform: rotate(360deg);
+}
+
+/* Header section of CSS ends */
+
+body{
+    color: olive;
+    background-color: cornsilk;
+    
+    
+}
+
+
+
+
+#nav_content > ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+#nav_content> ul > li > a{
+
+        text-decoration: none;
+        margin: 5px;
+        padding: 10px;
+        border: 10px;
+        border-radius: 10px;
+        color: cornsilk;
+        background-color: olive;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+        transition: background-color 0.3s ease;
+}
+
+#nav_content > ul > li > a:hover{
+
+    background-color: cornsilk;
+    color: olive;
+}
+
+
+/* Main section style begins  */
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: olive;
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: auto;
+    padding-right: 20px;
+  }
+  
+  .text-container h1 {
+    font-size: 50px;
+    color: cornsilk;
+    margin-bottom: 20px;
+  }
+  
+  .text-container p {
+    font-size: 20px;
+    color: cornsilk;
+    
+  }
+  
+  .image-container {
+    flex:auto;
+    
+  }
+  
+  .image-container img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+  }
