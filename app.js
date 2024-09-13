@@ -16,12 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
         // Display success message
         responseMessage.textContent = 'Form submitted successfully!';
-        console.log('Success:', data);
+        function showAlert(){
+            alert(responseMessage)
+        }
+        /*  console.log('Success:', data);*/
       })
       .catch(error => {
         // Handle error
         responseMessage.textContent = 'An error occurred. Please try again.';
-        console.error('Error:', error);
+        showAlert(responseMessage)
+        /*  console.error('Error:', error); */
       });
     });
   });
