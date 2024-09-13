@@ -17,14 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         // Display success message
         responseMessage.textContent = 'Form submitted successfully!';
         function showAlert(){
-            alert(responseMessage)
+            alert(responseMessage.textContent)
         }
         /*  console.log('Success:', data);*/
       })
       .catch(error => {
         // Handle error
         responseMessage.textContent = 'An error occurred. Please try again.';
-        showAlert(responseMessage)
+        showAlert()
         /*  console.error('Error:', error); */
       });
     });
