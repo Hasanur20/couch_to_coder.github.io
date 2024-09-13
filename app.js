@@ -16,15 +16,15 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(response => response.json()) // Handle JSON response if necessary
       .then(data => {
         // Display success message
-        document.getElementById("submit").addEventListener("click", function () { alert("Congrats"); });
-        // responseMessage.textContent = 'Form submitted successfully!';
-        /*  console.log('Success:', data);*/
+        alert("Congrats , your details have been sent to our team")
+
+        form.reset();
+        
       })
       .catch(error => {
         // Handle error
         alert("Error, please try again")
-        // responseMessage.textContent = 'An error occurred. Please try again.';
-        /*  console.error('Error:', error); */
+        
       });
   });
 });
