@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
+    <script src="app.js" defer></script>
     <title>Hasanur - FoodBlog</title>
 </head>
 
@@ -92,7 +93,7 @@
         <!-- Subscribe to our newsletter section  -->
         <section id="contact_form">
             <h2>Need some more help... Leave us a message</h2>
-            <form id="simple-form" method="POST" action="https://script.google.com/macros/s/AKfycbwUuZ80iQyx24SGmX6VYzUZkWBCmmvqWETdQx83WXAMwiEpZX6gWGwG0IuUF74FtWXGZw/exec">
+            <form id="simple-form">
                 <div>
                     <label for="first_name">First Name:</label>
                     <input type="text" id="first_name" name="first_name" required>
@@ -120,7 +121,10 @@
 
                 <button type="submit"> Submit </button>
 
+
             </form>
+
+            <div id="responseMessage"></div>
         </section>
 
         <br>
